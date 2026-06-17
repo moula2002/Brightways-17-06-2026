@@ -1,0 +1,130 @@
+.navigation {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  padding: 0 40px; /* Padding increased for better spacing */
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 999;
+  top: 0;
+}
+
+.header-0 {
+  padding-top: 90px;
+}
+
+.brand-name {
+  text-decoration: none;
+}
+
+.roy {
+  max-height: 70px;
+  object-fit: contain;
+}
+
+/* MENU */
+.navigation-menu {
+  margin-left: auto;
+}
+
+.navigation-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 25px; /* Spacing between menu items */
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu li {
+  list-style: none;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  color: #333130;
+  font-size: 16px;
+  font-weight: 700; /* Made slightly bolder like the image */
+  display: block;
+}
+
+/* Hover */
+.navigation-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* BUTTONS - EXACT MATCH TO IMAGE */
+.btn-payment {
+  background-color: #FFC107 !important; /* Yellow */
+  color: black !important;
+  border: none !important;
+  padding: 10px 25px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+}
+
+.btn-kyc {
+  background-color: #198754 !important; /* Green */
+  color: white !important;
+  border: none !important;
+  padding: 10px 25px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+}
+
+/* DROPDOWN CUSTOM */
+.custom-dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  color: #333130 !important;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+/* MOBILE RESPONSIVENESS */
+.hamburger {
+  display: none;
+  background: #357997;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .navigation-menu ul {
+    gap: 15px;
+  }
+  .navigation-menu li a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+  .navigation-menu {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+  }
+  .navigation-menu.expanded {
+    display: block;
+  }
+  .navigation-menu ul {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+}
