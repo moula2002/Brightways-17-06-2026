@@ -7,7 +7,7 @@ const HniIndexOption = () => {
       <p className='text-center text-gray-600 mb-6'>
         Get premium HNI Index Option Pro services with expert trading insights and weekly recommendations.
       </p>
-      <div className='grid md:grid-cols-3 gap-8 mt-5'>
+      <div className='grid md:grid-cols-2 gap-6 mt-5'>
         <div className='border rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300 text-center'>
           <h4 className='text-xl font-semibold mb-3'>Monthly Plan</h4>
           <h5 className='text-2xl font-bold text-green-600 mb-3'>₹60,000 + GST (18%)</h5>
@@ -21,22 +21,10 @@ const HniIndexOption = () => {
           </a>
         </div>
         <div className='border rounded-lg p-6 shadow-md mt-5 md:mt-0 hover:shadow-lg transition duration-300 text-center'>
-          <h4 className='text-xl font-semibold mb-3'>Half Yearly Plan</h4>
-          <h5 className='text-2xl font-bold text-green-600 mb-3'>₹99,000 + GST (18%)</h5>
-          <p className='text-gray-500 mb-4'>
-            Save more with a 6-month plan and receive premium HNI index option recommendations.
-          </p>
-          <a href="/contact">
-            <button className="bg-blue-600 text-black px-5 py-2 rounded-lg hover:bg-blue-700 transition">
-              Buy Now
-            </button>
-          </a>
-        </div>
-        <div className='border rounded-lg p-6 shadow-md mt-5 md:mt-0 hover:shadow-lg transition duration-300 text-center'>
-          <h4 className='text-xl font-semibold mb-3'>Yearly Plan</h4>
+          <h4 className='text-xl font-semibold mb-3'>Quarterly Plan</h4>
           <h5 className='text-2xl font-bold text-green-600 mb-3'>₹1,25,000 + GST (18%)</h5>
           <p className='text-gray-500 mb-4'>
-            Get full-year access to high-net-worth index option trading strategies and alerts.
+            Save more with a 3-month plan and receive premium HNI index option recommendations.
           </p>
           <a href="/contact">
             <button className="bg-blue-600 text-black px-5 py-2 rounded-lg hover:bg-blue-700 transition">

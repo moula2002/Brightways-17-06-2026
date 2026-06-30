@@ -7,8 +7,8 @@ const StockCashPro = () => {
       <p className='text-center text-gray-600 mb-6'>
         Upgrade to Stock Cash Pro for premium stock market insights with exclusive weekly recommendations.
       </p>
-      <div className='grid md:grid-cols-2 gap-6 mt-5'>
-        <div className='border rounded-lg p-6 shadow-md hover:shadow-lg p-4 transition duration-300 text-center'>
+      <div className='grid md:grid-cols-3 gap-8 mt-5'>
+        <div className='border rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300 text-center'>
           <h4 className='text-xl font-semibold mb-2'>Monthly Plan</h4>
           <h5 className='text-2xl font-bold text-green-600 mb-2'>₹29,000 + GST (18%)</h5>
           <p className='text-gray-500 mb-4'>
@@ -20,11 +20,23 @@ const StockCashPro = () => {
             </button>
           </a>
         </div>
-        <div className='border rounded-lg p-6 shadow-md hover:shadow-lg mt-5 p-4 transition duration-300 text-center'>
+        <div className='border rounded-lg p-6 shadow-md mt-5 md:mt-0 hover:shadow-lg transition duration-300 text-center'>
           <h4 className='text-xl font-semibold mb-2'>Quarterly Plan</h4>
           <h5 className='text-2xl font-bold text-green-600 mb-2'>₹65,000 + GST (18%)</h5>
           <p className='text-gray-500 mb-4'>
             Save more with a 3-month plan and receive consistent stock recommendations.
+          </p>
+          <a href="/contact">
+            <button className="bg-blue-600 text-black px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+              Buy Now
+            </button>
+          </a>
+        </div>
+        <div className='border rounded-lg p-6 shadow-md mt-5 md:mt-0 hover:shadow-lg transition duration-300 text-center'>
+          <h4 className='text-xl font-semibold mb-2'>Yearly Plan</h4>
+          <h5 className='text-2xl font-bold text-green-600 mb-2'>₹1,24,999 + GST (18%)</h5>
+          <p className='text-gray-500 mb-4'>
+            Get full-year access to premium stock cash recommendations and expert assistance.
           </p>
           <a href="/contact">
             <button className="bg-blue-600 text-black px-5 py-2 rounded-lg hover:bg-blue-700 transition">
