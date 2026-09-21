@@ -22,7 +22,7 @@ const HniStockOption = () => {
         </div>
         <div className='border rounded-lg p-6 shadow-md mt-5 md:mt-0 hover:shadow-lg transition duration-300 text-center'>
           <h4 className='text-xl font-semibold mb-3'>Quarterly Plan</h4>
-          <h5 className='text-2xl font-bold text-green-600 mb-3'>₹1,25,000 + GST (18%)</h5>
+          <h5 className='text-2xl font-bold text-green-600 mb-3'>₹1,35,000 + GST (18%)</h5>
           <p className='text-gray-500 mb-4'>
             Save more with a 3-month plan and receive exclusive HNI stock option recommendations.
           </p>
