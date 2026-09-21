@@ -98,7 +98,12 @@ export default function Investor() {
             title="D. Grievance redressal mechanism"
             content={
               <div>
-                <p>Raise complaints within 21 days.</p>
+                <p>
+                  Raise complaints within 21 days.{" "}
+                  <a href="https://smartodr.in/" target="_blank" rel="noopener noreferrer">
+                    SMART ODR
+                  </a>
+                </p>
 
                 <a href="https://scores.sebi.gov.in" target="_blank" rel="noopener noreferrer">
                   SEBI SCORES

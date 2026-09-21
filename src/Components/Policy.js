@@ -42,7 +42,7 @@ function Policy() {
           </li>
           <li>Read our Terms and Conditions.</li>
           <li>Read our Privacy Policy and Refund Policy.</li>
-          <li>There is no refund possible in any case whatsoever. </li>
+          <li>There is no refund possible in any case whatsoever cannot be used</li>
         </ul>
       </div>
     </>
