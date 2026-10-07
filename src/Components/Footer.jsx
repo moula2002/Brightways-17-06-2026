@@ -61,6 +61,16 @@ function Footer() {
                     </a>
                   </li>
                   <li>
+                    <a href="https://smartodr.in/login" target="_blank" rel="noopener noreferrer">
+                      <span aria-hidden="true">➤</span> SMART ODR
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://scores.sebi.gov.in/" target="_blank" rel="noopener noreferrer">
+                      <span aria-hidden="true">➤</span> SEBI SCORES
+                    </a>
+                  </li>
+                  <li>
                     <a href="/terms-of-services">
                       <span aria-hidden="true">➤</span> Terms of Service
                     </a>

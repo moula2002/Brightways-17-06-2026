@@ -20,7 +20,7 @@ const Complaint2 = () => {
           fontWeight: '700',
           margin: '0 0 6px 0'
         }}>
-          Data for the Month Ending – May 2026
+          Data for the Month Ending – September2026
         </h2>
 
         <div style={{ overflowX: 'auto' }}
@@ -220,14 +220,14 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>0</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>0</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -338,7 +338,7 @@ const Complaint2 = () => {
                   lineHeight: '1.4',
                   fontWeight: '700',
                   color: '#003366'
-                }}>1</td>
+                }}>0</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -347,7 +347,7 @@ const Complaint2 = () => {
                   lineHeight: '1.4',
                   fontWeight: '700',
                   color: '#003366'
-                }}>1</td>
+                }}>0</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -494,7 +494,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>May, 2026</td>
+                }}>September, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -508,14 +508,14 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>0</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>0</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -541,7 +541,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>April, 2026</td>
+                }}>August, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -588,7 +588,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>March, 2026</td>
+                }}>July, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -635,6 +635,53 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
+                }}>June, 2026</td>
+                <td style={{
+                  border: '1px solid #767676',
+                  padding: '10px 12px',
+                  textAlign: 'center',
+                  fontSize: '0.9em',
+                  lineHeight: '1.4'
+                }}>0</td>
+                <td style={{
+                  border: '1px solid #767676',
+                  padding: '10px 12px',
+                  textAlign: 'center',
+                  fontSize: '0.9em',
+                  lineHeight: '1.4'
+                }}>0</td>
+                <td style={{
+                  border: '1px solid #767676',
+                  padding: '10px 12px',
+                  textAlign: 'center',
+                  fontSize: '0.9em',
+                  lineHeight: '1.4'
+                }}>0</td>
+                <td style={{
+                  border: '1px solid #767676',
+                  padding: '10px 12px',
+                  textAlign: 'center',
+                  fontSize: '0.9em',
+                  lineHeight: '1.4'
+                }}>0</td>
+              </tr>
+              <tr>
+                <th scope="row" style={{
+                  border: '1px solid #767676',
+                  padding: '10px 12px',
+                  textAlign: 'center',
+                  fontSize: '0.9em',
+                  lineHeight: '1.4',
+                  backgroundColor: '#e8eef7',
+                  color: '#003366',
+                  fontWeight: '600'
+                }}>5</th>
+                <td style={{
+                  border: '1px solid #767676',
+                  padding: '10px 12px',
+                  textAlign: 'center',
+                  fontSize: '0.9em',
+                  lineHeight: '1.4'
                 }}>Previous Monthly Complaints for this FY 2025-26</td>
                 <td style={{
                   border: '1px solid #767676',
@@ -649,7 +696,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>2</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -663,7 +710,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>0</td>
+                }}>1</td>
               </tr>
               <tr style={{ backgroundColor: '#e8eef7', fontWeight: '700' }}>
                 <th scope="row" colSpan="2" style={{
@@ -701,7 +748,7 @@ const Complaint2 = () => {
                   lineHeight: '1.4',
                   fontWeight: '700',
                   color: '#003366'
-                }}>2</td>
+                }}>1</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -710,7 +757,7 @@ const Complaint2 = () => {
                   lineHeight: '1.4',
                   fontWeight: '700',
                   color: '#003366'
-                }}>0</td>
+                }}>1</td>
               </tr>
             </tbody>
           </table>
