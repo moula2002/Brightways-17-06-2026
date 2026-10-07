@@ -61,7 +61,7 @@ function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://smartodr.in/login" target="_blank" rel="noopener noreferrer">
+                    <a href="https://smartodr.in/" target="_blank" rel="noopener noreferrer">
                       <span aria-hidden="true">➤</span> SMART ODR
                     </a>
                   </li>
