@@ -20,7 +20,7 @@ const Complaint2 = () => {
           fontWeight: '700',
           margin: '0 0 6px 0'
         }}>
-          Data for the Month Ending – September2026
+          Data for the Month Ending – October 2026
         </h2>
 
         <div style={{ overflowX: 'auto' }}
@@ -494,7 +494,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>September, 2026</td>
+                }}>October, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -541,7 +541,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>August, 2026</td>
+                }}>September, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -588,7 +588,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>July, 2026</td>
+                }}>August, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -635,7 +635,7 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>June, 2026</td>
+                }}>July, 2026</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
