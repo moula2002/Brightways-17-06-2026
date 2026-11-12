@@ -703,14 +703,14 @@ const Complaint2 = () => {
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>2</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
                   textAlign: 'center',
                   fontSize: '0.9em',
                   lineHeight: '1.4'
-                }}>1</td>
+                }}>0</td>
               </tr>
               <tr style={{ backgroundColor: '#e8eef7', fontWeight: '700' }}>
                 <th scope="row" colSpan="2" style={{
@@ -748,7 +748,7 @@ const Complaint2 = () => {
                   lineHeight: '1.4',
                   fontWeight: '700',
                   color: '#003366'
-                }}>1</td>
+                }}>2</td>
                 <td style={{
                   border: '1px solid #767676',
                   padding: '10px 12px',
@@ -757,7 +757,7 @@ const Complaint2 = () => {
                   lineHeight: '1.4',
                   fontWeight: '700',
                   color: '#003366'
-                }}>1</td>
+                }}>0</td>
               </tr>
             </tbody>
           </table>
